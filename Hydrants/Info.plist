@@ -41,5 +41,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>hydrants</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>hydrants location</string>
 </dict>
 </plist>

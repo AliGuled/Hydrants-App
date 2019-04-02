@@ -12,6 +12,10 @@
 		181BFEAB224AE7300068F015 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181BFEA9224AE7300068F015 /* Main.storyboard */; };
 		181BFEAD224AE7320068F015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181BFEAC224AE7320068F015 /* Assets.xcassets */; };
 		181BFEB0224AE7320068F015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181BFEAE224AE7320068F015 /* LaunchScreen.storyboard */; };
+		181BFEB8224AE8E40068F015 /* HydrantUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BFEB7224AE8E40068F015 /* HydrantUpdate.swift */; };
+		181BFEBA224AE8F50068F015 /* HydrantStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BFEB9224AE8F50068F015 /* HydrantStore.swift */; };
+		181BFEBC224AE9080068F015 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BFEBB224AE9080068F015 /* ImageStore.swift */; };
+		181BFEBE224AF7CD0068F015 /* HydrantAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BFEBD224AF7CD0068F015 /* HydrantAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		181BFEAC224AE7320068F015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		181BFEAF224AE7320068F015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		181BFEB1224AE7320068F015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181BFEB7224AE8E40068F015 /* HydrantUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrantUpdate.swift; sourceTree = "<group>"; };
+		181BFEB9224AE8F50068F015 /* HydrantStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrantStore.swift; sourceTree = "<group>"; };
+		181BFEBB224AE9080068F015 /* ImageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
+		181BFEBD224AF7CD0068F015 /* HydrantAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrantAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 			children = (
 				181BFEA5224AE7300068F015 /* AppDelegate.swift */,
 				181BFEA7224AE7300068F015 /* ViewController.swift */,
+				181BFEBD224AF7CD0068F015 /* HydrantAnnotation.swift */,
+				181BFEB7224AE8E40068F015 /* HydrantUpdate.swift */,
+				181BFEB9224AE8F50068F015 /* HydrantStore.swift */,
+				181BFEBB224AE9080068F015 /* ImageStore.swift */,
 				181BFEA9224AE7300068F015 /* Main.storyboard */,
 				181BFEAC224AE7320068F015 /* Assets.xcassets */,
 				181BFEAE224AE7320068F015 /* LaunchScreen.storyboard */,
@@ -135,8 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181BFEBA224AE8F50068F015 /* HydrantStore.swift in Sources */,
+				181BFEB8224AE8E40068F015 /* HydrantUpdate.swift in Sources */,
 				181BFEA8224AE7300068F015 /* ViewController.swift in Sources */,
+				181BFEBC224AE9080068F015 /* ImageStore.swift in Sources */,
 				181BFEA6224AE7300068F015 /* AppDelegate.swift in Sources */,
+				181BFEBE224AF7CD0068F015 /* HydrantAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
