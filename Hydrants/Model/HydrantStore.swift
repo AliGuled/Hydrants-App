@@ -46,7 +46,7 @@ class HydrantStore{
         return imageStore.image(forKey: forKey)
     }
     
-
+//Saving changes made
     func archivreChanges() {
         do {
             let data = try NSKeyedArchiver.archivedData(withRootObject: hydrantUpdates, requiringSecureCoding: false)

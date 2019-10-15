@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		181BFEA6224AE7300068F015 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BFEA5224AE7300068F015 /* AppDelegate.swift */; };
-		181BFEA8224AE7300068F015 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BFEA7224AE7300068F015 /* ViewController.swift */; };
+		181BFEA8224AE7300068F015 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BFEA7224AE7300068F015 /* MapViewController.swift */; };
 		181BFEAB224AE7300068F015 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181BFEA9224AE7300068F015 /* Main.storyboard */; };
 		181BFEAD224AE7320068F015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181BFEAC224AE7320068F015 /* Assets.xcassets */; };
 		181BFEB0224AE7320068F015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181BFEAE224AE7320068F015 /* LaunchScreen.storyboard */; };
@@ -21,7 +21,7 @@
 /* Begin PBXFileReference section */
 		181BFEA2224AE7300068F015 /* Hydrants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hydrants.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		181BFEA5224AE7300068F015 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		181BFEA7224AE7300068F015 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		181BFEA7224AE7300068F015 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		181BFEAA224AE7300068F015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		181BFEAC224AE7320068F015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		181BFEAF224AE7320068F015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -62,18 +62,50 @@
 		181BFEA4224AE7300068F015 /* Hydrants */ = {
 			isa = PBXGroup;
 			children = (
-				181BFEA5224AE7300068F015 /* AppDelegate.swift */,
-				181BFEA7224AE7300068F015 /* ViewController.swift */,
+				18D8662E225CDF8D00444E5C /* Model */,
+				18D86630225CDFA400444E5C /* View */,
+				18D8662F225CDF9600444E5C /* Controllers */,
+				18D86631225CDFB500444E5C /* Supporting Flies */,
+				181BFEB1224AE7320068F015 /* Info.plist */,
+			);
+			path = Hydrants;
+			sourceTree = "<group>";
+		};
+		18D8662E225CDF8D00444E5C /* Model */ = {
+			isa = PBXGroup;
+			children = (
 				181BFEBD224AF7CD0068F015 /* HydrantAnnotation.swift */,
 				181BFEB7224AE8E40068F015 /* HydrantUpdate.swift */,
 				181BFEB9224AE8F50068F015 /* HydrantStore.swift */,
 				181BFEBB224AE9080068F015 /* ImageStore.swift */,
-				181BFEA9224AE7300068F015 /* Main.storyboard */,
-				181BFEAC224AE7320068F015 /* Assets.xcassets */,
-				181BFEAE224AE7320068F015 /* LaunchScreen.storyboard */,
-				181BFEB1224AE7320068F015 /* Info.plist */,
 			);
-			path = Hydrants;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18D8662F225CDF9600444E5C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				181BFEA7224AE7300068F015 /* MapViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		18D86630225CDFA400444E5C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				181BFEA9224AE7300068F015 /* Main.storyboard */,
+				181BFEAE224AE7320068F015 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18D86631225CDFB500444E5C /* Supporting Flies */ = {
+			isa = PBXGroup;
+			children = (
+				181BFEA5224AE7300068F015 /* AppDelegate.swift */,
+				181BFEAC224AE7320068F015 /* Assets.xcassets */,
+			);
+			path = "Supporting Flies";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +181,7 @@
 			files = (
 				181BFEBA224AE8F50068F015 /* HydrantStore.swift in Sources */,
 				181BFEB8224AE8E40068F015 /* HydrantUpdate.swift in Sources */,
-				181BFEA8224AE7300068F015 /* ViewController.swift in Sources */,
+				181BFEA8224AE7300068F015 /* MapViewController.swift in Sources */,
 				181BFEBC224AE9080068F015 /* ImageStore.swift in Sources */,
 				181BFEA6224AE7300068F015 /* AppDelegate.swift in Sources */,
 				181BFEBE224AF7CD0068F015 /* HydrantAnnotation.swift in Sources */,

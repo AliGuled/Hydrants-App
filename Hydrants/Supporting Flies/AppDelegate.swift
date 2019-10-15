@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        let viewController = window?.rootViewController as! ViewController
+        let viewController = window?.rootViewController as! MapViewController
         let hydrantStore = HydrantStore()
         viewController.hydrantStore = hydrantStore
         return true

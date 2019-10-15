@@ -9,7 +9,7 @@
 import UIKit
 import MapKit
 
-class ViewController: UIViewController,CLLocationManagerDelegate,MKMapViewDelegate,UINavigationControllerDelegate,UIImagePickerControllerDelegate {
+class MapViewController: UIViewController,CLLocationManagerDelegate,MKMapViewDelegate,UINavigationControllerDelegate,UIImagePickerControllerDelegate {
 
     @IBOutlet weak var hydrantMap: MKMapView!
     var locationManger: CLLocationManager?
@@ -29,7 +29,7 @@ class ViewController: UIViewController,CLLocationManagerDelegate,MKMapViewDelega
             hydrantMap.showsUserLocation = true
             locationManger?.startUpdatingLocation()
         } else {
-            print("Location not periitted for app - TODO show dialog for user")
+            print("Location not perimitted for app - TODO show dialog for user")
         }
     }
     
